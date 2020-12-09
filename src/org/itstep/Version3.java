@@ -2,10 +2,10 @@ package org.itstep;
 
 import java.util.Scanner;
 
-public class version3 extends version2{
+public class Version3 extends Version2 {
     private int beanCoffee = 0;
 
-    public version3() {
+    public Version3() {
         super(200, 1000);
     }
 

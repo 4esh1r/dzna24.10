@@ -2,15 +2,15 @@ package org.itstep;
 
 import java.util.Scanner;
 
-public class version2 extends Mark1 {
+public class Version2 extends Version1 {
     private int milk = 0;
     private int milkLimit = 2000;
 
-    public version2() {
+    public Version2() {
         super(400);
     }
 
-    protected version2(int RubbishBinLimit, int milkLimit){
+    protected Version2(int RubbishBinLimit, int milkLimit){
         super(RubbishBinLimit);
         this.milkLimit = milkLimit;
     }

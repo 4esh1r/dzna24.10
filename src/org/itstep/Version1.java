@@ -2,13 +2,13 @@ package org.itstep;
 import java.util.Scanner;
 
 
-public class version1 extends CofeMAH {
+public class Version1 extends CofeMAH {
 
-    public version1() {
+    public Version1() {
         super(200);
     }
 
-    protected version1(int limit) {
+    protected Version1(int limit) {
         super(limit);
     }
 
